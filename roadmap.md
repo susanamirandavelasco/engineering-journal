@@ -1,97 +1,174 @@
-Semana 1 (ya estamos aquí)
+# 🚀 Roadmap de Aprendizaje - GenAI Portfolio (8 semanas)
 
-✅ Semantic Search (terminado)
+## Objetivo
 
+Construir un portafolio que demuestre comprensión profunda de los fundamentos de GenAI, RAG, evaluación y agentes, desarrollando criterio técnico para roles de AI Product Manager o AI Technical Product Manager.
+
+---
+
+| Semana | Proyecto | Objetivos de aprendizaje | Entregables |
+|---------|----------|--------------------------|-------------|
+| **1** | ✅ Semantic Search (terminado)<br>🚧 RAG Assistant (inicio) | Embeddings, Chunking, Vector DB, Similarity Search, Retriever | Semantic Search terminado + arquitectura inicial del RAG |
+| **2** | **RAG Assistant** | Prompt Builder, LLM Integration, Sources, Threshold básico, manejo de preguntas fuera del dominio, refactorización, pruebas básicas | RAG Assistant funcional + README profesional + diagramas |
+| **3** | **Conversational RAG** | Memoria conversacional, historial, reformulación de preguntas, gestión del contexto, límites de ventana de contexto | Chat con memoria utilizando el mismo corpus documental |
+| **4** | **RAG Evaluation** | Cómo medir calidad de un RAG, Faithfulness, Groundedness, Precision, Recall, Hallucinations, datasets de evaluación | Framework sencillo para evaluar respuestas del RAG |
+| **5** | **Tool Calling Assistant** | Function Calling, herramientas externas, ejecución de acciones, diseño de funciones | Asistente capaz de consultar documentación y ejecutar funciones |
+| **6** | **Mini AI Agent** | Planner, Tool Selection, flujo de decisiones, arquitectura básica de agentes sin frameworks | Mini agente construido desde primeros principios |
+| **7** | **Portfolio Polish** | Refactorización, documentación, diagramas de arquitectura, estructura GitHub, decisiones técnicas, limpieza del código | Portfolio profesional listo para entrevistas |
+| **8** | **Interview Preparation** | Mock Interviews, preguntas técnicas, trade-offs, escalabilidad, decisiones arquitectónicas | Preparación para entrevistas basada en proyectos reales |
+
+---
+
+# Proyectos del Portafolio
+
+## Proyecto 1
+✅ Semantic Search sobre documentación AWS Bedrock
+
+Aprendizajes:
+
+- Embeddings
+- Chunking
+- Vector Databases
+- Similarity Search
+- Metadata
+- Ranking
+
+---
+
+## Proyecto 2
 🚧 RAG Assistant
 
----
+Componentes:
 
-Semana 2
-
-RAG Assistant terminado.
-
-Con:
-
-Retrieval
-Prompt Builder
-Citas
-Threshold básico
-README profesional
-
-Segundo proyecto completo.
+- Retriever
+- Prompt Builder
+- Generator
+- Sources
+- Threshold
+- Grounding
+- Refactorización
+- Tests
+- README profesional
 
 ---
 
-Semana 3
+## Proyecto 3
+Conversational RAG
 
-Conversational RAG.
+Componentes:
 
-Aquí aprenderás:
-
-memoria
-historial
-contexto conversacional
-
----
-
-Semana 4
-
-Evaluation.
-
-Uno de los temas que menos gente domina.
-
-¿Cómo saber si un RAG realmente responde bien?
+- Chat History
+- Memory
+- Context Window
+- Question Reformulation
 
 ---
 
-Semana 5
+## Proyecto 4
+RAG Evaluation
 
-Tool Calling.
+Componentes:
 
-Este proyecto cambia mucho la percepción en entrevistas.
-
-Porque ya no es solo responder.
-
-Es hacer.
-
----
-
-Semana 6
-
-Mini AI Agent.
-
-No un framework enorme.
-
-Un agente pequeño construido desde los fundamentos.
+- Dataset de preguntas
+- Dataset esperado
+- Comparación automática
+- Métricas
+- Faithfulness
+- Groundedness
 
 ---
 
-Semana 7
+## Proyecto 5
+Tool Calling Assistant
 
-Pulido del portafolio.
+Componentes:
 
-READMEs
-Diagramas
-Arquitectura
-LinkedIn
-GitHub
+- Function Calling
+- Herramientas
+- Orquestación
+- Ejecución de acciones
 
 ---
 
-Semana 8
+## Proyecto 6
+Mini AI Agent
 
-Preparación para entrevistas.
+Componentes:
 
-Quiero hacerte preguntas como si yo fuera un Engineering Manager.
+- Planner
+- Retriever
+- Tool Calling
+- Decision Loop
+- Respuesta final
 
-Por ejemplo:
+---
 
-"¿Por qué elegiste ChromaDB?"
+# Competencias que desarrollaré
 
-"¿Qué limitaciones tiene RAG?"
+### Fundamentos de IA Generativa
 
-"¿Cómo reducirías las alucinaciones?"
+- Embeddings
+- Prompt Engineering
+- Retrieval
+- Context Windows
+- Vector Databases
 
-"¿Qué cambiarías si tuvieras un millón de documentos?"
+### Arquitectura
 
-Quiero que llegues con respuestas basadas en proyectos que construiste.
+- Diseño modular
+- Separación de responsabilidades
+- Evolución incremental
+- APIs internas
+
+### Calidad
+
+- Testing básico
+- Logging
+- Debugging
+- Evaluación de respuestas
+
+### Producto
+
+- Grounding
+- UX de asistentes IA
+- Diseño de prompts
+- Trade-offs
+- Métricas
+
+### Ingeniería
+
+- Python
+- OpenAI API
+- ChromaDB
+- GitHub
+- Documentación técnica
+
+---
+
+# Proyecto Final Integrador
+
+**AI Documentation Assistant**
+
+Incluye:
+
+- Semantic Search
+- RAG
+- Conversación
+- Tool Calling
+- Evaluación
+- Arquitectura modular
+- Documentación profesional
+- Diagramas
+- README de nivel profesional
+
+---
+
+# Objetivo Final
+
+Al finalizar este roadmap seré capaz de:
+
+- Diseñar sistemas RAG desde primeros principios.
+- Explicar las decisiones de arquitectura y sus trade-offs.
+- Construir asistentes con Tool Calling y agentes simples sin depender de frameworks.
+- Evaluar objetivamente la calidad de un sistema GenAI.
+- Presentar un portafolio profesional orientado a roles de AI Product Manager / AI Technical Product Manager.
