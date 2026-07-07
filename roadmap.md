@@ -8,8 +8,8 @@ Construir un portafolio que demuestre comprensión profunda de los fundamentos d
 
 | Semana | Proyecto | Objetivos de aprendizaje | Entregables |
 |---------|----------|--------------------------|-------------|
-| **1** | ✅ Semantic Search (terminado)<br> RAG Assistant (inicio) | Embeddings, Chunking, Vector DB, Similarity Search, Retriever | Semantic Search terminado + arquitectura inicial del RAG |
-| **2** | ✅ RAG Assistant** | Retriever, Prompt Builder, LLM Integration, Grounding, Arquitectura modular, DTOs, separación de responsabilidades, integración end-to-end | RAG Assistant funcional + README profesional + diagramas 🚧 |
+| **1** | ✅ Semantic Search (terminado)<br> RAG Assistant (inicio) | Embeddings, Chunking, Vector DB, Similarity Search, Retriever, Metadata, Ranking | Semantic Search terminado + arquitectura inicial del RAG |
+| **2** | ✅ RAG Assistant | Retriever, Prompt Builder, LLM Integration, Grounding, Arquitectura modular, DTOs, separación de responsabilidades, integración end-to-end | RAG Assistant funcional + README profesional + diagramas 🚧 |
 | **3** | 🚧 Conversational RAG | Memoria conversacional, historial, reformulación de preguntas, gestión del contexto, límites de ventana de contexto | Chat con memoria utilizando el mismo corpus documental |
 | **4** | **RAG Evaluation** | Cómo medir calidad de un RAG, Faithfulness, Groundedness, Precision, Recall, Hallucinations, datasets de evaluación | Framework sencillo para evaluar respuestas del RAG |
 | **5** | **Tool Calling Assistant** | Function Calling, herramientas externas, ejecución de acciones, diseño de funciones | Asistente capaz de consultar documentación y ejecutar funciones |
@@ -21,46 +21,32 @@ Construir un portafolio que demuestre comprensión profunda de los fundamentos d
 
 # Proyectos del Portafolio
 
-## Proyecto 1
-✅ Semantic Search sobre documentación AWS Bedrock
-
-Aprendizajes:
-
-- Embeddings
-- Chunking
-- Vector Databases
-- Similarity Search
-- Metadata
-- Ranking
-
----
-
 ✅ Proyecto 2 — RAG Assistant
 
 Estado: Funcional (fase de Portfolio Polish pendiente)
 
 Componentes implementados
-✅ Document Loader
-✅ Chunking
-✅ Embedding Service
-✅ ChromaDB
-✅ Retriever
-✅ Prompt Builder
-✅ Generator
-✅ RAG Pipeline
-✅ RAGResponse (DTO)
-✅ Sources
-✅ Arquitectura modular
-✅ Reutilización del Proyecto 1
-✅ Grounded Generation
-✅ Manejo de preguntas fuera del dominio
+- ✅ Document Loader
+- ✅ Chunking
+- ✅ Embedding Service
+- ✅ ChromaDB
+- ✅ Retriever
+- ✅ Prompt Builder
+- ✅ Generator
+- ✅ RAG Pipeline
+- ✅ RAGResponse (DTO)
+- ✅ Sources
+- ✅ Arquitectura modular
+- ✅ Reutilización del Proyecto 1
+- ✅ Grounded Generation
+-  ✅ Manejo de preguntas fuera del dominio
 Próximas mejoras
-README profesional
-Diagramas de arquitectura
-Mejor presentación de resultados en consola
-Capturas del funcionamiento
-Logging básico
-Pruebas unitarias sencillas
+- README profesional
+- Diagramas de arquitectura
+- Mejor presentación de resultados en consola
+- Capturas del funcionamiento
+- Logging básico
+- Pruebas unitarias sencillas
 
 ---
 
