@@ -9,7 +9,7 @@ Construir un portafolio que demuestre comprensión profunda de los fundamentos d
 | Semana | Proyecto | Objetivos de aprendizaje | Entregables |
 |---------|----------|--------------------------|-------------|
 | **1** | ✅ Semantic Search (terminado)<br> RAG Assistant (inicio) | Embeddings, Chunking, Vector DB, Similarity Search, Retriever, Metadata, Ranking | Semantic Search terminado + arquitectura inicial del RAG |
-| **2** | ✅ RAG Assistant | Retriever, Prompt Builder, LLM Integration, Grounding, Arquitectura modular, DTOs, separación de responsabilidades, integración end-to-end | RAG Assistant funcional + README profesional + diagramas 🚧 |
+| **2** | ✅ RAG Assistant | Retriever, Prompt Builder, LLM Integration, Grounding, Arquitectura modular, DTOs, separación de responsabilidades, integración end-to-end | RAG Assistant funcional + README profesional + diagramas |
 | **3** | 🚧 Conversational RAG | Memoria conversacional, historial, reformulación de preguntas, gestión del contexto, límites de ventana de contexto | Chat con memoria utilizando el mismo corpus documental |
 | **4** | **RAG Evaluation** | Cómo medir calidad de un RAG, Faithfulness, Groundedness, Precision, Recall, Hallucinations, datasets de evaluación | Framework sencillo para evaluar respuestas del RAG |
 | **5** | **Tool Calling Assistant** | Function Calling, herramientas externas, ejecución de acciones, diseño de funciones | Asistente capaz de consultar documentación y ejecutar funciones |
